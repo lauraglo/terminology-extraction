@@ -1,0 +1,266 @@
+Collecting pip
+  Downloading pip-22.0.3-py3-none-any.whl (2.1 MB)
+     |████████████████████████████████| 2.1 MB 6.4 MB/s
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.1.2
+    Uninstalling pip-21.1.2:
+      Successfully uninstalled pip-21.1.2
+ERROR: Could not install packages due to an OSError: [WinError 5] Acceso denegado: 'C:\\Users\\W10\\AppData\\Local\\Temp\\pip-uninstall-hckfiul9\\pip.exe'
+
+sudo : El término 'sudo' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si        
+incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ sudo pip install --upgrade pip
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (sudo:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\W10\PycharmProjects\terminology-extraction> 'C:\Users\W10\PycharmProjects\terminology-extraction\venv\Scripts\python.exe -m pip install --upgrade pip
+>> ^C
+PS C:\Users\W10\PycharmProjects\terminology-extraction> C:\Users\W10\PycharmProjects\terminology-extraction\venv\Scripts\python.exe -m pip install --upgrade pip 
+Requirement already satisfied: pip in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (22.0.3)
+PS C:\Users\W10\PycharmProjects\terminology-extraction> pip install allennlp==0.9.0                                                                             
+Collecting allennlp==0.9.0
+  Using cached allennlp-0.9.0-py3-none-any.whl (7.6 MB)
+Collecting flaky
+  Using cached flaky-3.7.0-py2.py3-none-any.whl (22 kB)
+Requirement already satisfied: overrides in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (3.1.0)
+Requirement already satisfied: h5py in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (3.6.0)
+Collecting editdistance
+  Using cached editdistance-0.6.0-cp39-cp39-win_amd64.whl (24 kB)
+Collecting numpydoc>=0.8.0
+  Using cached numpydoc-1.2-py3-none-any.whl (51 kB)
+Collecting gevent>=1.3.6
+  Using cached gevent-21.12.0-cp39-cp39-win_amd64.whl (1.6 MB)
+Requirement already satisfied: numpy in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (1.22.2)
+Collecting conllu==1.3.1
+  Using cached conllu-1.3.1-py2.py3-none-any.whl (9.3 kB)
+Requirement already satisfied: scikit-learn in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (1.0.2)
+Collecting responses>=0.7
+  Using cached responses-0.18.0-py3-none-any.whl (38 kB)
+Collecting parsimonious>=0.8.0
+  Using cached parsimonious-0.8.1.tar.gz (45 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: boto3 in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (1.21.0)
+Requirement already satisfied: ftfy in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (6.1.1)
+Requirement already satisfied: tensorboardX>=1.2 in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (2.4.1)
+Collecting word2number>=1.1
+  Using cached word2number-1.1.zip (9.7 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: matplotlib>=2.2.3 in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (3.5.1)
+Collecting jsonpickle
+  Using cached jsonpickle-2.1.0-py2.py3-none-any.whl (38 kB)
+Collecting unidecode
+  Downloading Unidecode-1.3.3-py3-none-any.whl (235 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 235.7/235.7 KB 15.0 MB/s eta 0:00:00
+Collecting sqlparse>=0.2.4
+  Using cached sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Requirement already satisfied: requests>=2.18 in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (2.27.1)
+Requirement already satisfied: nltk in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (3.6.5)
+Requirement already satisfied: pytest in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (7.0.1)
+Collecting flask>=1.0.2
+  Using cached Flask-2.0.3-py3-none-any.whl (95 kB)
+Requirement already satisfied: tqdm>=4.19 in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (4.62.3)
+Collecting pytorch-pretrained-bert>=0.6.0
+  Using cached pytorch_pretrained_bert-0.6.2-py3-none-any.whl (123 kB)
+Requirement already satisfied: scipy in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (1.8.0)
+Requirement already satisfied: torch>=1.2.0 in c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages (from allennlp==0.9.0) (1.10.2)
+Collecting pytorch-transformers==1.1.0
+  Using cached pytorch_transformers-1.1.0-py3-none-any.whl (158 kB)
+Collecting flask-cors>=3.0.7
+  Using cached Flask_Cors-3.0.10-py2.py3-none-any.whl (14 kB)
+Collecting spacy<2.2,>=2.1.0
+  Using cached spacy-2.1.9.tar.gz (30.7 MB)
+  Installing build dependencies ... error
+  error: subprocess-exited-with-error
+
+  × pip subprocess to install build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [160 lines of output]
+      Collecting setuptools
+        Using cached setuptools-60.9.3-py3-none-any.whl (1.1 MB)
+      Collecting wheel<0.33.0,>0.32.0
+        Using cached wheel-0.32.3-py2.py3-none-any.whl (21 kB)
+      Collecting Cython
+        Using cached Cython-0.29.28-py2.py3-none-any.whl (983 kB)
+      Collecting cymem<2.1.0,>=2.0.2
+        Using cached cymem-2.0.6-cp39-cp39-win_amd64.whl (36 kB)
+      Collecting preshed<2.1.0,>=2.0.1
+        Using cached preshed-2.0.1.tar.gz (113 kB)
+        Preparing metadata (setup.py): started
+        Preparing metadata (setup.py): finished with status 'done'
+      Collecting murmurhash<1.1.0,>=0.28.0
+        Using cached murmurhash-1.0.6-cp39-cp39-win_amd64.whl (21 kB)
+      Collecting thinc<7.1.0,>=7.0.8
+        Using cached thinc-7.0.8-cp39-cp39-win_amd64.whl
+      Collecting tqdm<5.0.0,>=4.10.0
+        Using cached tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+      Collecting numpy>=1.7.0
+        Using cached numpy-1.22.2-cp39-cp39-win_amd64.whl (14.7 MB)
+      Collecting wasabi<1.1.0,>=0.0.9
+        Using cached wasabi-0.9.0-py3-none-any.whl (25 kB)
+      Collecting plac<1.0.0,>=0.9.6
+        Using cached plac-0.9.6-py2.py3-none-any.whl (20 kB)
+      Collecting blis<0.3.0,>=0.2.1
+        Using cached blis-0.2.4.tar.gz (1.5 MB)
+        Preparing metadata (setup.py): started
+        Preparing metadata (setup.py): finished with status 'done'
+      Collecting srsly<1.1.0,>=0.0.6
+        Using cached srsly-1.0.5-cp39-cp39-win_amd64.whl (177 kB)
+      Collecting colorama
+        Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+      Building wheels for collected packages: preshed, blis
+        Building wheel for preshed (setup.py): started
+        Building wheel for preshed (setup.py): finished with status 'error'
+        error: subprocess-exited-with-error
+     
+        python setup.py bdist_wheel did not run successfully.
+        exit code: 1
+     
+        [40 lines of output]
+        running bdist_wheel
+        running build
+        running build_py
+        creating build
+        creating build\lib.win-amd64-3.9
+        creating build\lib.win-amd64-3.9\preshed
+        copying preshed\about.py -> build\lib.win-amd64-3.9\preshed
+        copying preshed\__init__.py -> build\lib.win-amd64-3.9\preshed
+        creating build\lib.win-amd64-3.9\preshed\tests
+        copying preshed\tests\test_counter.py -> build\lib.win-amd64-3.9\preshed\tests
+        copying preshed\tests\test_hashing.py -> build\lib.win-amd64-3.9\preshed\tests
+        copying preshed\tests\test_pop.py -> build\lib.win-amd64-3.9\preshed\tests
+        copying preshed\tests\__init__.py -> build\lib.win-amd64-3.9\preshed\tests
+        copying preshed\counter.pyx -> build\lib.win-amd64-3.9\preshed
+        copying preshed\maps.pyx -> build\lib.win-amd64-3.9\preshed
+        copying preshed\counter.pxd -> build\lib.win-amd64-3.9\preshed
+        copying preshed\maps.pxd -> build\lib.win-amd64-3.9\preshed
+        copying preshed\__init__.pxd -> build\lib.win-amd64-3.9\preshed
+        running build_ext
+        building 'preshed.maps' extension
+        creating build\temp.win-amd64-3.9
+        creating build\temp.win-amd64-3.9\Release
+        creating build\temp.win-amd64-3.9\Release\preshed
+        C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\Users\W10\AppD
+ata\Local\Programs\Python\Python39\include -Ic:\users\w10\pycharmprojects\terminology-extraction\venv\include -IC:\Users\W10\AppData\Local\Programs\Python\Python39\include -IC
+:\Users\W10\AppData\Local\Programs\Python\Python39\include -IC:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include -IC:\Program File
+s (x86)\Windows Kits\10\include\10.0.19041.0\ucrt -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19
+041.0\um -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt /EHsc /Tppreshed/maps.cpp /
+Fobuild\temp.win-amd64-3.9\Release\preshed/maps.obj /Ox /EHsc
+        maps.cpp
+        preshed/maps.cpp(5728): error C2039: "tp_print": no es un miembro de "_typeobject"
+        C:\Users\W10\AppData\Local\Programs\Python\Python39\include\cpython/object.h(193): note: vea la declaraci¢n de '_typeobject'
+        preshed/maps.cpp(5740): error C2039: "tp_print": no es un miembro de "_typeobject"
+        C:\Users\W10\AppData\Local\Programs\Python\Python39\include\cpython/object.h(193): note: vea la declaraci¢n de '_typeobject'
+        preshed/maps.cpp(5749): error C2039: "tp_print": no es un miembro de "_typeobject"
+        C:\Users\W10\AppData\Local\Programs\Python\Python39\include\cpython/object.h(193): note: vea la declaraci¢n de '_typeobject'
+        preshed/maps.cpp(5755): error C2039: "tp_print": no es un miembro de "_typeobject"
+        C:\Users\W10\AppData\Local\Programs\Python\Python39\include\cpython/object.h(193): note: vea la declaraci¢n de '_typeobject'
+        preshed/maps.cpp(5761): error C2039: "tp_print": no es un miembro de "_typeobject"
+        C:\Users\W10\AppData\Local\Programs\Python\Python39\include\cpython/object.h(193): note: vea la declaraci¢n de '_typeobject'
+        preshed/maps.cpp(5767): error C2039: "tp_print": no es un miembro de "_typeobject"
+        C:\Users\W10\AppData\Local\Programs\Python\Python39\include\cpython/object.h(193): note: vea la declaraci¢n de '_typeobject'
+        preshed/maps.cpp(6129): warning C4996: '_PyUnicode_get_wstr_length': deprecated in 3.3
+        preshed/maps.cpp(6145): warning C4996: '_PyUnicode_get_wstr_length': deprecated in 3.3
+        error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\cl.exe' failed with exit code 2   
+        [end of output]
+     
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+        ERROR: Failed building wheel for preshed
+        Running setup.py clean for preshed
+        Building wheel for blis (setup.py): started
+        Building wheel for blis (setup.py): finished with status 'error'
+        error: subprocess-exited-with-error
+     
+        python setup.py bdist_wheel did not run successfully.
+        exit code: 1
+     
+        [31 lines of output]
+        BLIS_COMPILER? None
+        running bdist_wheel
+        running build
+        running build_py
+        creating build
+        creating build\lib.win-amd64-3.9
+        creating build\lib.win-amd64-3.9\blis
+        copying blis\about.py -> build\lib.win-amd64-3.9\blis
+        copying blis\benchmark.py -> build\lib.win-amd64-3.9\blis
+        copying blis\__init__.py -> build\lib.win-amd64-3.9\blis
+        creating build\lib.win-amd64-3.9\blis\tests
+        copying blis\tests\common.py -> build\lib.win-amd64-3.9\blis\tests
+        copying blis\tests\test_dotv.py -> build\lib.win-amd64-3.9\blis\tests
+        copying blis\tests\test_gemm.py -> build\lib.win-amd64-3.9\blis\tests
+        copying blis\tests\__init__.py -> build\lib.win-amd64-3.9\blis\tests
+        copying blis\cy.pyx -> build\lib.win-amd64-3.9\blis
+        copying blis\py.pyx -> build\lib.win-amd64-3.9\blis
+        copying blis\cy.pxd -> build\lib.win-amd64-3.9\blis
+        copying blis\__init__.pxd -> build\lib.win-amd64-3.9\blis
+        running build_ext
+        c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages\Cython\Compiler\Main.py:369: FutureWarning: Cython directive 'language_level' not set, using
+ 2 for now (Py2). This will change in a later release! File: C:\Users\W10\AppData\Local\Temp\pip-install-g2y_r8g8\blis_2f02bed0c1ac4422a26c212ecb9f6a41\blis\cy.pxd
+          tree = Parsing.p_module(s, pxd, full_module_name)
+        c:\users\w10\pycharmprojects\terminology-extraction\venv\lib\site-packages\Cython\Compiler\Main.py:369: FutureWarning: Cython directive 'language_level' not set, using
+ 2 for now (Py2). This will change in a later release! File: C:\Users\W10\AppData\Local\Temp\pip-install-g2y_r8g8\blis_2f02bed0c1ac4422a26c212ecb9f6a41\blis\py.pyx
+          tree = Parsing.p_module(s, pxd, full_module_name)
+        Processing blis\cy.pyx
+        Processing blis\py.pyx
+        error: [WinError 2] El sistema no puede encontrar el archivo especificado
+        msvc
+        py_compiler msvc
+        {'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:
+ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;
+31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:
+*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01
+;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35
+:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.
+ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;
+35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi
+=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'HOSTTYPE': 'x86_64', 'LESSCLOSE': '/usr/bin
+/lesspipe %s %s', 'LANG': 'C.UTF-8', 'OLDPWD': '/home/matt/repos/flame-blis', 'VIRTUAL_ENV': '/home/matt/repos/cython-blis/env3.6', 'USER': 'matt', 'PWD': '/home/matt/repos/cy
+thon-blis', 'HOME': '/home/matt', 'NAME': 'LAPTOP-OMKOB3VM', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'SHELL': '/bin/bash', 'TERM': 'xterm-256col
+or', 'SHLVL': '1', 'LOGNAME': 'matt', 'PATH': '/home/matt/repos/cython-blis/env3.6/bin:/tmp/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
+usr/games:/usr/local/games:/mnt/c/Users/matt/Documents/cmder/vendor/conemu-maximus5/ConEmu/Scripts:/mnt/c/Users/matt/Documents/cmder/vendor/conemu-maximus5:/mnt/c/Users/matt/D
+ocuments/cmder/vendor/conemu-maximus5/ConEmu:/mnt/c/Python37/Scripts:/mnt/c/Python37:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS:/mnt/c/Program
+ Files/Intel/Intel(R) Management Engine Components/iCLS:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt
+/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/In
+tel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Fi
+les/Intel/WirelessCommon:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/LLVM/bi
+n:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/nodej
+s:/mnt/c/Users/matt/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matt/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/matt/AppData/Roaming/npm:/snap/bin:/mnt/c/P
+rogram Files/Oracle/VirtualBox', 'PS1': '(env3.6) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\
+[\\033[00m\\]\\$ ', 'VAGRANT_HOME': '/home/matt/.vagrant.d/', 'LESSOPEN': '| /usr/bin/lesspipe %s', '_': '/home/matt/repos/cython-blis/env3.6/bin/python'}
+        clang -c C:\Users\W10\AppData\Local\Temp\pip-install-g2y_r8g8\blis_2f02bed0c1ac4422a26c212ecb9f6a41\blis\_src\config\bulldozer\bli_cntx_init_bulldozer.c -o C:\Users\W1
+0\AppData\Local\Temp\tmpechar636\bli_cntx_init_bulldozer.o -O2 -funroll-all-loops -std=c99 -D_POSIX_C_SOURCE=200112L -DBLIS_VERSION_STRING="0.5.0-6" -DBLIS_IS_BUILDING_LIBRARY
+ -Iinclude\windows-x86_64 -I.\frame\3\ -I.\frame\ind\ukernels\ -I.\frame\1m\ -I.\frame\1f\ -I.\frame\1\ -I.\frame\include -IC:\Users\W10\AppData\Local\Temp\pip-install-g2y_r8g
+8\blis_2f02bed0c1ac4422a26c212ecb9f6a41\blis\_src\include\windows-x86_64
+        [end of output]
+     
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+        ERROR: Failed building wheel for blis
+        Running setup.py clean for blis
+      Failed to build preshed blis
+      Installing collected packages: wasabi, srsly, plac, murmurhash, cymem, wheel, setuptools, preshed, numpy, Cython, colorama, tqdm, blis, thinc
+        Running setup.py install for preshed: started
+        Running setup.py install for preshed: finished with status 'error'
+        error: subprocess-exited-with-error
+     
+        Running setup.py install for preshed did not run successfully.
+        exit code: 1
+     
+        [9 lines of output]
+        running install
+        running build
+        running build_py
+        running build_ext
+        building 'preshed.maps' extension
+        C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\Users\W10\AppD
+ata\Local\Programs\Python\Python39\include -Ic:\users\w10\pycharmprojects\terminology-extraction\venv\include -IC:\Users\W10\AppData\Local\Programs\Python\Python39\include -IC
+:\Users\W10\AppData\Local\Programs\Python\Python39\include -IC:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include -IC:\Program File
+s (x86)\Windows Kits\10\include\10.0.19041.0\ucrt -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19
+041.0\um -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt -IC:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt /EHsc /Tppreshed/maps.cpp /
+Fobuild\temp.win-amd64-3.9\Release\preshed/maps.obj /Ox /EHsc
+        maps.cpp
+        c1xx: fatal error C1083: No se puede abrir el archivo origen: 'preshed/maps.cpp': No such file or directory
+        error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\cl.exe' failed with exit code 2   
+        [end of output]

@@ -1,0 +1,11 @@
+ Model training base path: "C:\Users\W10\PycharmProjects\terminology-extraction\Bert___downsample_train_0.0_bs_4_lr_0.05_af_0.5_p_4_hsize_128_crf_0_lrnn
+_2_dp_0.0_wdp_0.05_ldp_0.5"
+2022-02-22 11:33:59,349 ----------------------------------------------------------------------------------------------------
+2022-02-22 11:33:59,349 Device: cpu
+2022-02-22 11:33:59,349 ----------------------------------------------------------------------------------------------------
+2022-02-22 11:33:59,349 Embeddings storage mode: cpu
+2022-02-22 11:33:59,349 ----------------------------------------------------------------------------------------------------
+2022-02-22 11:35:39,875 epoch 1 - iter 25/250 - loss 0.64704501 - samples/sec: 0.99 - lr: 0.050000
+2022-02-22 11:35:47,245 The string '' is not in dictionary! Dictionary contains only: ['O', 'B-KEY', 'I-KEY', '<START>', '<STOP>']
+2022-02-22 11:35:47,245 You can create a Dictionary that handles unknown items with an <unk>-key by setting add_unk = True in the construction.
+Traceback (most recent call last):
